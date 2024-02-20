@@ -1,0 +1,254 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* --------------------------Navigation---------------------- */
+
+#menu_bar{
+    display: none;
+}
+
+.header_container{
+    width: 80%;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 50px 0px;
+}
+
+
+.navigation_bar{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.navigation_bar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navigation_bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navigation_bar button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* --------------------------banner---------------------- */
+
+.banner{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    width: 80%;
+    margin: 0px auto;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 50px 0px;
+}
+
+.banner_content{
+    margin: 50px auto;
+}
+
+.banner_content h1{
+    font-size: 50px;
+    color: rgb(51, 51, 51);
+}
+.banner_content p{
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+    width: 505px;
+}
+#pree_btn{
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.banner_img{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.shop_list{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+    border-top: 1px solid rgb(255, 241, 241);
+    border-bottom: 1px solid rgb(255, 241, 241);
+    padding: 30px 0px;
+}
+
+
+/* ------------------------------- Product -------------------------- */
+
+.product{
+    width: 70%;
+    margin: 0px auto;
+}
+.product h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.product_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product_card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(202, 201, 201);
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.product_image{
+    width: 100%;
+}
+
+.product_name{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.product_price{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.product_rating{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    height: 5px;
+}
+
+.product_rating i{
+    display: flex;
+    align-items: center;
+    color: #FFC014;
+    font-size: 15px;
+    height: 5px;
+}
+
+.product_rating i:nth-child(5){
+    margin-right: 10px;
+}
+
+.product_details{
+    width: 45%;
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+
+#see_more{
+    color: #E02C6D;
+    text-align: end;
+}
+
+#see_more a{
+    font-weight: bold;
+    color: #E02C6D;
+    text-decoration: none;
+}
+
+/* ------------------------Future Product-------------- */
+
+.future_product{
+    width: 70%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    gap: 20px;
+    align-items: center;
+}
+.future_content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.future_content p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: gray;
+    width: 70%;
+}
+
+
+#join_btn{
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #E02C6D;
+}
+
+/* ---------------------------------footer-------------------------------- */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+}
+
+footer h1{
+    margin: 0;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.social_media a{
+    color: #fff;
+    background-color: rgb(29, 24, 56);
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+}

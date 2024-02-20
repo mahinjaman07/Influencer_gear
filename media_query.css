@@ -1,0 +1,229 @@
+@media screen and (max-width:768px) {
+    #menu_bar {
+        display: inline;
+        font-size: 25px;
+    }
+    #search_btn{
+        display: none;
+    }
+    .header_container{
+        display: flex;
+        padding: 10px 0px;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo h1{
+        font-size: 25px;
+        font-family: 500px;
+    }
+    #shop_cart_btn{
+        margin: 0;
+        padding: 0;
+    }
+    .navigation_bar{
+        text-align: center;
+    }
+    .navigation_bar ul{
+        display: none;
+    }
+
+    /* banner */
+
+    .banner{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-position: top;
+        background-size: 90%;
+        gap: 50px;
+        
+    }
+    .banner_content{
+        width: 90%;
+        margin: 0% auto;
+        padding: 0%;
+        grid-row: 2;
+        text-align: center;
+    }
+    .banner_content h1{
+        font-size: 30px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .banner_content p{
+        width: 100%;
+        font-weight: 400;
+    }
+    .banner_img{
+        margin-bottom: 50px;
+    }
+    .banner_img img{
+        width: 60%;
+        margin: 0px auto;
+    
+    }
+
+    /* Shop List  */
+    .shop_list{
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .shop_list img{
+        width: 15%;
+    }
+
+    /* Product */
+
+    .product{
+        width: 90%;
+
+    }
+    .product_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product_details{
+        width: 60%;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    #see_more{
+        text-align: center;
+    }
+    .future_product{
+        margin: 10% auto;
+        padding: 0px;
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .future_content h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .future_content p{
+        width: 100%;
+        font-weight: 600;
+    }
+    .future_content{
+        grid-row: 1;
+        text-align: center;
+        width: 100%;
+    }
+
+    .future_img img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header_container{
+        width: 90%;
+    }
+    
+    #shop_cart_btn{
+        margin: 0;
+        padding: 0;
+    }
+    .navigation_bar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation_bar ul{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    /* banner */
+
+    .banner{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-position: right;
+        background-size: 45%;
+        gap: 50px;
+        
+    }
+    .banner_content{
+        width: 100%;
+        margin: 0% ;
+        padding: 0%;
+        
+    }
+    .banner_content h1{
+        font-size: 35px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .banner_content p{
+        width: 100%;
+        font-weight: 400;
+    }
+    .banner_img img{
+        width: 70%;
+        margin: 0px auto;
+    }
+
+
+    /* Shop List  */
+    .shop_list{
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .shop_list img{
+        width: 20%;
+    }
+
+        /* Product */
+
+    .product{
+        width: 90%;
+
+    }
+    .product_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product_details{
+        width: 60%;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    #see_more{
+        text-align: center;
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .future_product{
+        margin: 10% auto;
+        padding: 0px;
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .future_content p{
+        width: 100%;
+    }
+    
+    .future_content{
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .future_img img{
+        width: 100%;
+    }
+}
